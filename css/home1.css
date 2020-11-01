@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url("../images/img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.topnav{
+   height: 80px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+}
+.topnav p{
+  font-family: trebuchet ms;
+  color: white;
+  font-style: normal;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 55px;
+  float: left;
+}
+.topnav ul h1{
+  float: left;
+  margin-right: 20px;
+}
+.topnav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+.topnav ul li{
+  position: relative;
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.topnav ul li a{
+  font-size: 20px;
+  font-family: Times new roman;
+  color: white;
+  padding: 3px 8px;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.topnav ul li ul{
+display: none;
+position: absolute;
+background-color: rgba(0,0,0,0.4);;
+border-radius: 0px 0px 1px 1px;
+padding: 10px;
+}
+.topnav ul li:hover ul{
+display: block;
+}
+.topnav ul li ul li{
+  width: 180px;
+  border-radius: 4px;
+}
+
+.topnav ul li ul li a
+{
+  padding: 3px 9px;
+}
+
+.topnav ul li ul li a:hover{
+  background: red;
+  border-radius: 2px;
+}
+.topnav ul li a:hover{
+  background: red;
+  border-radius: 2px;
+}
+
+.welcome{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+h1{
+color: black;
+font-size:17px;
+text-align: center;
+margin-top: 20px;
+margin-left: 250px;
+}
+
+h2
+{
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 270px;
+}
+
+h3{
+color: black;
+font-size:17px;
+text-align: center;
+margin-top: 4px;
+margin-left: 230px;
+}
+
